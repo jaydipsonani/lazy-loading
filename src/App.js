@@ -18,7 +18,7 @@ function App() {
         <Component2 />
       </Suspense>
       <h1>hello</h1>
-      <h1>the new hello branch</h1>
+      <h1>the new hello branch (hello branch)</h1>
     </div>
   );
 }
