@@ -5,7 +5,7 @@ import './App.css';
 import { Suspense, lazy } from 'react';
 const Component1 = lazy(() => import('./Component1'))
 const Component2 = lazy(() => import('./Component2'))
-// const Component3 = lazy(() => import('./Component3'))
+
 
 function App() {
   return (
@@ -17,9 +17,7 @@ function App() {
       <Suspense fallback={<div>Loading...component2</div>}>
         <Component2 />
       </Suspense>
-      {/* <Suspense fallback={<div>Loading...component3</div>}>
-        <Component3/>
-      </Suspense> */}
+      <h1>hello</h1>
     </div>
   );
 }
